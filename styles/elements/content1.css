@@ -1,0 +1,79 @@
+section.content1{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 2rem 1.5rem;
+    gap: 1rem;
+}
+.head-title__h2{
+    font-family: var(--fuente1);
+    color: var(--col_fuente);
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.img__content1{
+border-radius: 0.75rem 0.75rem 0 0;
+}
+.receta{
+    display:flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.ingredient-list__h3{
+    font-family: var(--fuente1);
+    color: var(--col_fuente);
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.ingredient-list___p{
+     font-family: var(--fuente2);
+    color: var(--col_fuente);
+    font-weight: 600;
+}
+.receta__ingredient-list{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+.ingredient-list__li{
+    display:flex;
+}  
+.instructions__div1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.div1__p{
+    font-family: var(--fuente2);
+    color: var(--col_fuente);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.div1__div2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.div1__div2 ol{
+    list-style-type: decimal;
+    list-style-position:outside;
+    padding-left: 0.5rem;
+}
+.receta__instructions{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.instructions__div2 ol{
+     list-style-type: decimal;
+     list-style-position:outside;
+     padding-left: 0.5rem;
+    }
+    .bold{
+        font-weight: 600;
+    }
+    .div__ol-li::marker {
+    font-weight: bold;
+ 
+}

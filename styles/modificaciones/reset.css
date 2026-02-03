@@ -1,0 +1,58 @@
+/* 1. Reset de Box-sizing para controlar mejor los anchos */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Eliminar márgenes y rellenos por defecto */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Evitar que el navegador infle el texto en móviles */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* 4. Configuración básica del cuerpo */
+body {
+  line-height: 1.5; /* Mejora la legibilidad */
+  -webkit-font-smoothing: antialiased; /* Suaviza el texto */
+  min-height: 100svh; /* Asegura que cubra toda la pantalla móvil */
+}
+
+/* 5. Reset de listas (li) */
+ul, ol {
+  list-style: none;
+}
+
+/* 6. Reset de enlaces (a) */
+a {
+  text-decoration: none;
+  color: inherit; /* Hereda el color del texto del padre */
+}
+
+/* 7. Reset de encabezados (h1, h2, etc.) */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-wrap: balance; 
+}
+
+/* 8. Reset de imágenes y multimedia */
+img, picture, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 9. Reset de formularios para que hereden la fuente */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 10. Evitar desbordes de texto largos */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}

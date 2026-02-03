@@ -1,0 +1,14 @@
+:root{
+    --gris-oscuro:#474747;
+    --gris-claro:#F9F9F7;
+    --borde:#2C2F24;
+    --col_fuente:#182226;
+    --fuente1:"Playfair Display";
+    --fuente2:"DM Sans";
+
+
+}
+
+html{
+    font-size: 12px;
+}
