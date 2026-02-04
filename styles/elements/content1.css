@@ -38,6 +38,7 @@ border-radius: 0.75rem 0.75rem 0 0;
 }
 .ingredient-list__li{
     display:flex;
+    gap:0.3rem;
 }  
 .instructions__div1{
     display: flex;
@@ -58,7 +59,7 @@ border-radius: 0.75rem 0.75rem 0 0;
 .div1__div2 ol{
     list-style-type: decimal;
     list-style-position:outside;
-    padding-left: 0.5rem;
+    padding-left: 1.2rem;
 }
 .receta__instructions{
     display: flex;
@@ -68,7 +69,7 @@ border-radius: 0.75rem 0.75rem 0 0;
 .instructions__div2 ol{
      list-style-type: decimal;
      list-style-position:outside;
-     padding-left: 0.5rem;
+     padding-left: 1.2rem;
     }
     .bold{
         font-weight: 600;

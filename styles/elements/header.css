@@ -36,6 +36,9 @@ header{
 .info__div{
     display: flex; 
 }
+.menu-nav2{
+    display: none;
+}
 
 .nav{
     width: 100vw;

@@ -1,0 +1,76 @@
+@media(min-width:640px){
+    html{
+        font-size: 14px;
+    }
+
+    /*AJUSTES HEADER*/
+
+.top-bar{
+    justify-content: space-around;
+}
+.nav{
+    justify-content: space-around;
+}
+.logo-bliss{
+    flex-direction: row;
+}
+.menu-nav{
+    display: none;
+}
+.menu-nav2{
+    display:flex;
+}
+.menu-nav2__ul{
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+}
+.menu-nav2__li a{
+    font-family: var(--fuente2);
+    color: var(--borde);
+}
+
+/* AJUSTES CONTENT 1  */
+
+section.content1{
+    padding:4rem 2rem;
+    align-items: center;
+}
+.head-title__h2{
+    max-width: 30ch;
+}
+div.receta{
+    flex-direction: row;
+}
+aside{
+    min-width: 25%;
+}
+.ingredient-list__li{
+    align-items: flex-start;
+}
+
+/* AJUSTES CONTENT 2 */
+
+.content2__p{
+    max-width: 45ch;
+}
+.content2__ul{
+    justify-content: center;
+}
+.content2__ul{
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+/* AJUSTES FOOTER */
+
+.top-footer{
+    flex-direction: row;    
+}
+
+
+
+
+
+}
