@@ -20,6 +20,11 @@ header{
     display: flex;
     gap: 1rem;
 }
+@media (max-width:360px){
+    .info__div a{
+        display:none;
+    }
+}
 .ul__social{
     display:flex;
     gap: 0.5rem;
@@ -28,7 +33,7 @@ header{
     width: 1.7rem;
     height: auto;
 }
-.phone, .mail{
+.info__div{
     display: flex; 
 }
 

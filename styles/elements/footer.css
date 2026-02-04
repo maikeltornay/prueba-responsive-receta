@@ -12,6 +12,7 @@
 .column1{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
 }
 .logo-footer{
@@ -31,9 +32,9 @@
     font-weight: 500;
 }
 .column1 p{
+    text-align: center;
     font-family:var(--fuente2);
     color: #ADB29E;
-    width: 50ch;
 }
 .footer__ul{
     display: flex;
