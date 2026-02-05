@@ -1,0 +1,86 @@
+@media(min-width:1024px){
+    html{
+        font-size: 16px;
+    }
+    /* AJUSTES HEADER */
+.top-bar{
+    justify-content: space-between;
+    padding: 0.5625rem 9.375rem;
+}
+.menu-nav2__li{
+    padding: 0.25rem 1rem;
+    border-radius: 2.125rem;  
+}
+.menu-nav2__li:hover{ 
+    background-color:#DBDFD0 ;
+}
+.nav__button:hover{
+    background-color:#DBDFD0 ;
+    cursor: pointer;
+}
+
+/* AJUSTES CONTENT1 */
+section.content1{
+    gap:4rem;
+    padding-top: 7rem;
+}
+.head-title__h2{
+    font-size: 3.4375rem;
+    max-width: none;
+}   
+.receta__ingredient-list{
+    gap: 3rem;
+}
+.receta__ingredient-list h3{
+    font-size: clamp( 2.5rem, 2.5vw,3.4375rem)
+}
+.receta__ingredient-list p{
+    font-size: 1.25rem;
+}
+.ingredient-list__ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.ingredient-list__li{
+    align-items: center;
+}
+.div1__p{
+    font-size: 1.5rem;
+}
+.div__ol, .div2__p{
+    font-size: 1.25rem;
+}
+
+/* AJUSTES CONTENT2 */
+.content2__h3{
+    font-size: 3rem;
+}
+.content2__p{
+    font-size: 1.5rem;
+}
+.content2__ul{
+    flex-wrap: nowrap;
+}
+
+/* AJUSTES FOOTER */
+.top-footer{
+    padding: 7rem 9.5rem;
+    align-items:  start;
+}
+.footer{
+    margin-top: 11.07rem;
+}
+.column1 {
+    justify-content: left;
+    align-items: flex-start;
+    p{
+        text-align: left;
+    }
+}
+.column3{
+    width: 100%;
+    height: auto;
+}
+
+}
