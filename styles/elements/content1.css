@@ -76,5 +76,18 @@ border-radius: 0.75rem 0.75rem 0 0;
     }
     .div__ol-li::marker {
     font-weight: bold;
- 
-}
+    }
+
+    input.checkbox{
+        appearance: none;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        background-color: transparent;
+        border:2px solid #AD343E;
+            &:checked{
+                background-image: url(/styles/images/icons/checked.svg);
+                background-size: 110%;
+                background-position: center;
+            }
+    }

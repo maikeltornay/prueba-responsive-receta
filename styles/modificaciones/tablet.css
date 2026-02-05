@@ -48,7 +48,9 @@ aside{
 .ingredient-list__li{
     align-items: flex-start;
 }
-
+.ingredient-list__ul{
+    gap: 1.4rem;
+}
 /* AJUSTES CONTENT 2 */
 
 .content2__p{
