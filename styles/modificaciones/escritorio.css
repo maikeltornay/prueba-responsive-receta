@@ -4,6 +4,7 @@
     }
     /* AJUSTES HEADER */
 .top-bar{
+width: 100%;
     justify-content: space-between;
     padding: 0.5625rem 9.375rem;
 }
