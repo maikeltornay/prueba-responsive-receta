@@ -27,7 +27,7 @@ section.content1{
 }
 .head-title__h2{
     font-size: 3.4375rem;
-    max-width: none;
+    max-width: 30ch;
 }   
 .receta__ingredient-list{
     gap: 3rem;
